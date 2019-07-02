@@ -1,0 +1,37 @@
+archivesBaseName = 'aifaascloud-outsourcing-core'
+version='1.0.0'
+dependencies {
+    compile (
+            libraries.'servlet-api',
+            libraries.'commons-lang3',
+            libraries.'fastjson',
+            libraries.'druid-spring-boot-starter',
+            libraries.'spring-boot-starter-web',
+            libraries.'spring-boot-starter-aop',
+            libraries.'spring-boot-starter-jdbc',
+            libraries.'mysql',
+            'com.github.penggle:kaptcha:2.3.2',
+//            'com.baomidou:mybatis-plus-boot-starter:3.1.1',
+            'com.github.pagehelper:pagehelper-spring-boot-starter:1.2.10',
+            'com.fasterxml.jackson.core:jackson-databind:2.9.8',
+            'commons-io:commons-io:2.6',
+            'org.jsoup:jsoup:1.11.3',
+            'org.apache.poi:poi-ooxml:4.1.0',
+            'org.yaml:snakeyaml:1.24',
+            'commons-fileupload:commons-fileupload:1.4',
+            'org.apache.shiro:shiro-core:1.4.0',
+            'org.apache.shiro:shiro-spring:1.4.0',
+            'org.apache.shiro:shiro-cas:1.4.0',
+            'org.apache.shiro:shiro-web:1.4.0',
+            'org.apache.shiro:shiro-ehcache:1.4.0',
+            'net.sf.ehcache:ehcache:2.10.6',
+            'com.github.theborakompanioni:thymeleaf-extras-shiro:2.0.0',
+            'eu.bitwalker:UserAgentUtils:1.21',
+            'org.quartz-scheduler:quartz:2.3.1',
+            'org.quartz-scheduler:quartz-jobs:2.3.1',
+            'org.springframework:spring-context-support:5.1.5.RELEASE',
+            'org.apache.mina:mina-core:2.1.2',
+
+    )
+
+}
